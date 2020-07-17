@@ -14,9 +14,20 @@
 
 :warning: 
 
+:dash:   :arrow_forward:
+:floppy_disk:  :books:
+
+:memo: Tarefa 1 
+
 [texto do link](link) 
 
 ...
+
+Exemplo link visivel: https://www.terra.com.br/
+
+```
+borda cinza
+```
 
 <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
 
@@ -24,3 +35,5 @@ Tabela conforme próximas três linhas:
 |cabeçalho1|cabeçalho2| 
 |-|-| 
 |texto1|texto2| 
+
+:copyright: 
