@@ -37,3 +37,9 @@ Tabela conforme próximas três linhas:
 |texto1|texto2| 
 
 :copyright: 
+
+## Fontes:
+
+Emojis: :one: https://www.webfx.com/tools/emoji-cheat-sheet/   :two:  https://gist.github.com/rxaviers/7360908 
+
+:link: Template: https://gist.github.com/reginadiana/e044fe93ed81aa04a10361cb841c0409
