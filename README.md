@@ -19,25 +19,25 @@
   - [Mais sobre Markdown](#mais-sobre-markdown)
 
 
-### 1) Títulos e Parágrafo 
-Para marcar um Título usa-se o # ou <hnumero> --> Quando usa o # tem que ter o espaço entre o # e o texto:
+### 1) Headings e Parágrafo 
+Para marcar um Heading usa-se o # ou <hnumero> --> Quando usa o # tem que ter o espaço entre o # e o texto:
    
 ````
-# Título  ou  <h1 align="center">Título</h1>
-## Título  ou  <h2>Título</h2>
-### Título  ou  <h3>Título</h3>
-#### Título  ou  <h4>Título</h4>
-##### Título  ou  <h5>Título</h5>
-###### Título  ou  <h6>Título</h6>
+# Heading 1  ou  <h1 align="center">Título</h1>
+## Heading 2  ou  <h2>Título</h2>
+### Heading 3  ou  <h3>Título</h3>
+#### Heading 4  ou  <h4>Título</h4>
+##### Heading 5  ou  <h5>Título</h5>
+###### Heading 6  ou  <h6>Título</h6>
 <h6 align="center">Título</h6>
 ````
 Exemplo de Titulação
-# Título
-## Título
-### Título
-#### Título 
-##### Título
-###### Título
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4 
+##### Heading 5
+###### Heading 6
 <h6 align="center">Título</h6>
 
 #### Parágrafo
@@ -194,7 +194,7 @@ Exemplo de Link
 Exemplo link visivel
 https://www.terra.com.br/<br></br>
 
-- **Link dentro do arquivo .md**
+- **Link dentro do arquivo .md - Bookmark links**
   ```
   [Texto para clicar](#9-links)
   texto para clicar: é somente o texto que aparece para o usário
@@ -204,16 +204,41 @@ https://www.terra.com.br/<br></br>
   Este exemplo leva o usuario para o título que tem o texto 9) Links. No VScode ao digitar o [](# ele já dá as opções de autocompletar. Neste exemplo ao digitar [](#) ele já oferece as seguintes opções de destino:
  
   ![](/images/LinksDentroDoArquivo.png)
+
+      Github Flavored Markdown for a while and can summarize with four rules:
+
+      1.punctuation marks will be dropped
+      2.leading white spaces will be dropped
+      3.upper case will be converted to lower
+      4.spaces between letters will be converted to -
+
+      For example, if your section is named this:
+
+          ## 1.1 Hello World
+
+
+      Create a link to it this way:
+
+          [Link](#11-hello-world)
+
   <br>
     Equivalente em HTML:
     ````
-    <a ref="https://www.terra.com.br>">Site do Terra</a>
+    <a href="https://www.terra.com.br>">Site do Terra</a>
     ````
-    <a ref="https://www.terra.com.br>">Site do Terra</a><br>
+
+    <a href="https://www.terra.com.br/>">Site do Terra</a>
+
+    Seja redirecionado para o <a href="http://www.google.com/>">Google</a>
+    <br>
 
 
 templateReadmeMarkdown.md  (O uso do .md no final da sentença coloca em azul o texto em forma de link)
-    
+
+Mais informações em:
+https://docs.microsoft.com/en-us/contribute/how-to-write-links
+https://stackoverflow.com/questions/6695439/how-to-link-to-a-named-anchor-in-multimarkdown
+
 :book: [Índice](#índice)
 
 ### 10) Código (Code Highlight)
@@ -387,28 +412,45 @@ https://www.ti-enxame.com/pt/syntax/comentarios-em-markdown/972100416/
 
 ## Fontes
 
-Emojis:
-:one: https://www.webfx.com/tools/emoji-cheat-sheet/
-:two:  https://gist.github.com/rxaviers/7360908 
-:three: https://www.webfx.com/tools/emoji-cheat-sheet/
-:four: https://gist.github.com/rxaviers/7360908
+:smile:**Emojis:**<br>
+:one: https://www.webfx.com/tools/emoji-cheat-sheet/<br>
+:two:  https://gist.github.com/rxaviers/7360908<br> 
+:three: https://www.webfx.com/tools/emoji-cheat-sheet/<br>
+:four: https://gist.github.com/rxaviers/7360908<br>
 
-:link: Templates:
+:link: **Templates:**
 https://gist.github.com/PurpleBooth/109311bb0361f32d87a2 
 https://gist.github.com/reginadiana/e044fe93ed81aa04a10361cb841c0409
 https://github.com/dbader/readme-template (Este inclusive em inglês, português e espanhol)
+
+:school:**Sites Oficiais**
+
+https://commonmark.org/
+
+https://www.markdownguide.org/
+
+[GitHub Flavored Markdown (GFM)](https://help.github.com/categories/writing-on-github/)
+
  
 :book: [Índice](#índice)
 
 ## Ferramentas para Markdown
 
+https://www.markdownguide.org/tools/
+
 http://markdownpad.com/
+
+https://markdownmonster.west-wind.com/
+
 
 :book: [Índice](#índice)
 
 ## Mais sobre Markdown
 
 Resumo de Comandos
+https://commonmark.org/help/
+https://www.markdownguide.org/basic-syntax/
+https://www.markdownguide.org/extended-syntax/
 https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md 
 
 Sintaxe com seu equivalente em HTML 
