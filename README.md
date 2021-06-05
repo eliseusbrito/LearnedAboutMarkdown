@@ -15,6 +15,7 @@
    - [12) Tabelas](#12-tabelas)
    - [13) Comentar linhas do markdown](#13-comentar-linhas-do-markdown)
   - [Fontes](#fontes)
+  - [Ferramentas para Markdown](#ferramentas-para-markdown)
   - [Mais sobre Markdown](#mais-sobre-markdown)
 
 
@@ -28,6 +29,7 @@ Para marcar um Título usa-se o # ou <hnumero> --> Quando usa o # tem que ter o 
 #### Título  ou  <h4>Título</h4>
 ##### Título  ou  <h5>Título</h5>
 ###### Título  ou  <h6>Título</h6>
+<h6 align="center">Título</h6>
 ````
 Exemplo de Titulação
 # Título
@@ -192,6 +194,17 @@ Exemplo de Link
 Exemplo link visivel
 https://www.terra.com.br/<br></br>
 
+- **Link dentro do arquivo .md**
+  ```
+  [Texto para clicar](#9-links)
+  texto para clicar: é somente o texto que aparece para o usário
+  #link: todos as linhas de um arquivo md marcadas como Títulos utilizando o # para títulos de segundo nível(##) até o de sexto nível(######) são elegíveis para serem links. Somente o Título principal(#) não se consegue colocar link
+  ```
+  [Texto para clicar](#9-links)
+  Este exemplo leva o usuario para o título que tem o texto 9) Links. No VScode ao digitar o [](# ele já dá as opções de autocompletar. Neste exemplo ao digitar [](#) ele já oferece as seguintes opções de destino:
+ 
+  ![](/images/LinksDentroDoArquivo.png)
+  <br>
     Equivalente em HTML:
     ````
     <a ref="https://www.terra.com.br>">Site do Terra</a>
@@ -261,19 +274,18 @@ O código para inserir uma imagem no conteúdo é semelhante ao código de inser
 
 * Imagem dentro em um endereço na internet<br>
     
-  * Exemplo dentro de uma repositorio github
-
-     ````
-    ![GitHubPequena](https://github.com/eliseusbrito/LearnedAboutMarkdown/images/GitHubPequena.png) 
-      ````
-     ![GitHubPequena](https://github.com/eliseusbrito/LearnedAboutMarkdown/images/GitHubPequena.png) 
-
-  * Exemplo dentro de uma página www
+    * Exemplo dentro de uma página www
     ````
     ![Amazon](https://images-na.ssl-images-amazon.com/images/I/41oAtDLsOEL._SX327_BO1,204,203,200_.jpg)
     ````
     ![Amazon](https://images-na.ssl-images-amazon.com/images/I/41oAtDLsOEL._SX327_BO1,204,203,200_.jpg)<br></br>
-    
+
+  * Exemplo dentro de uma repositorio github
+
+     ````
+    ![GitHubPequena](https://github.com/eliseusbrito/LearnedAboutMarkdown/blob/cd929d7b42149d66c79df0ea1dfb41b46b820688/images/GitHubPequena.png) 
+      ````
+     ![GitHubPequena](https://github.com/eliseusbrito/LearnedAboutMarkdown/blob/cd929d7b42149d66c79df0ea1dfb41b46b820688/images/GitHubPequena.png)   
 
   * Exemplo de quando o link é protegido ou não existe
   ````
@@ -315,7 +327,7 @@ Tabela conforme próximas três linhas:
 
 |name|email|git|linkedin|avatar| 
 |-|-|-|-|-|
-| Eliseu Brito | eliseubritoep@gmail.com | https://github.com/eliseusbrito | https://www.linkedin.cn/in/eliseusilveirabrito |  | 
+| Eliseu Brito | eliseubritoep@gmail.com | https://github.com/eliseusbrito | https://www.linkedin.cn/in/eliseusilveirabrito |![](/images/EliseuDoisMonitoresPequena.jpg)| 
 
 Em markdown temos que basicamente desenhar a tabela, porém existe um gerador de tabelas que facilita a nossa vida:  https://www.tablesgenerator.com/markdown_tables  
 Basta copiar o que o gerador criar e colar no arquivo .md. 
@@ -388,11 +400,18 @@ https://github.com/dbader/readme-template (Este inclusive em inglês, português
  
 :book: [Índice](#índice)
 
+## Ferramentas para Markdown
+
+http://markdownpad.com/
+
+:book: [Índice](#índice)
+
 ## Mais sobre Markdown
 
-Resumo de Comandos: https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md 
+Resumo de Comandos
+https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md 
 
-
+Sintaxe com seu equivalente em HTML 
 https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8 
 
 https://dev.to/reginadiana/como-escrever-um-readme-md-sensacional-no-github-4509 
@@ -401,12 +420,17 @@ https://guides.github.com/features/mastering-markdown/
 
 https://docs.gitlab.com/ee/user/markdown.html 
 
+Formatting text with Markdown
 https://support.zendesk.com/hc/pt-br/articles/203691016-Formata%C3%A7%C3%A3o-de-texto-com-Markdown 
 
+Guia básico de Markdown
 https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
 
+Ajuda do markdown
+https://pt.stackoverflow.com/editing-help
 
 
 Veja alguns problemas que surgiram no desenvolvimento deste projeto e como os resolvi em [issues](https://github.com/Diana-ops/treina-dev-turma-3/issues) 
+https://github.com/reginadiana
 
 :book: [Índice](#índice)
