@@ -155,14 +155,23 @@ Equivalente em HTML
 
 ### 7) Marcadores especiais
 ````:small_blue_diamond:````  :small_blue_diamond: Tópico com inicio de Diamante Azul
+
 ````:heavy_check_mark:````      :heavy_check_mark:
+
 ````:warning:````   :warning:
+
 ````:dash:````   :dash:
+
 ````:arrow_forward:````   :arrow_forward:
+
 ````:floppy_disk:````   :floppy_disk:
+
 ````:books:````   :books:
+
 ````:memo: Tarefa 1````  :memo: Tarefa 1
+
 ````:copyright:````  :copyright: 
+
 
 :book: [Índice](#índice)
 
@@ -187,9 +196,10 @@ Equivalente em HTML:
 :book: [Índice](#índice)
 
 ### 9) Links
-- **Texto-âncora**: utilize os caracteres [](), adicionando entre chaves o texto que você quer que apareça, e entre os parênteses, o endereço de destino, no formato: ````[Site do Terra](https://www.terra.com.br)````
-Exemplo de Link
-[Site do Terra](https://www.terra.com.br)
+- **Texto-âncora**: utilize os caracteres [](), adicionando entre chaves o texto que você quer que apareça, e entre os parênteses, o endereço de destino, no formato:
+   ````[Site do Terra](https://www.terra.com.br)````
+   [Site do Terra](https://www.terra.com.br)
+<br></br>
 - **Link direto**: envolva o endereço da web em chaves <>. O endereço ficará visível e será clicável pelo usuário. O endereço em forma de link direto tem o formato: ````https://www.link.com.br/ ````
 Exemplo link visivel
 https://www.terra.com.br/<br></br>
@@ -222,20 +232,43 @@ https://www.terra.com.br/<br></br>
           [Link](#11-hello-world)
 
   <br>
-    Equivalente em HTML:
-    ````
-    <a href="https://www.terra.com.br>">Site do Terra</a>
-    ````
+    Equivalente em HTML:<br>
 
-    <a href="https://www.terra.com.br/>">Site do Terra</a>
+    - **Interno** -  Redirecionará ao elemento âncora contato.
+      ```
+      <a href="#contato">Contato</a>
+      ````
+      <a href="#contato">Contato</a>
+      <br>
 
-    Seja redirecionado para o <a href="http://www.google.com/>">Google</a>
+   - **Local** - Redirecionará ao arquivo pagina2.html pertencente à pasta pages.
+     ````
+     <a href="../pages/pagina2.html">Pagina 2</a>
+     ````
+     <a href="../pages/pagina2.html">Pagina 2</a>
+    <a href="/images/EliseuDoisMonitoresPequena.jpg">Foto Eliseu</a>
+    <a href="/images/EliseuDoisMonitoresPequena.jpg">Foto Eliseu</a>
+    <img src="/images/EliseuDoisMonitoresPequena.jpg">
+    <a href="../README.md">README</a>
     <br>
 
+    - **Global** - Redirecionará à link na web
+      ````
+      <a href="https://www.terra.com.br">Site do Terra</a>
+      ````
+
+      <a href="https://www.terra.com.br">Site do Terra</a>
+
+      Seja redirecionado para o <a href="http://www.google.com/">Google</a>
+      <br>
+     
+    Mais em https://www.homehost.com.br/blog/tutoriais/links-html/
+    <br></br>
 
 templateReadmeMarkdown.md  (O uso do .md no final da sentença coloca em azul o texto em forma de link)
 
 Mais informações em:
+
 https://docs.microsoft.com/en-us/contribute/how-to-write-links
 https://stackoverflow.com/questions/6695439/how-to-link-to-a-named-anchor-in-multimarkdown
 
@@ -331,8 +364,11 @@ Equivalente em HTML:
 ```
 <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
 <br></br>
-
-
+````
+<img src="/images/EliseuDoisMonitoresPequena.jpg">
+````
+<img src="/images/EliseuDoisMonitoresPequena.jpg">
+<br></br>
 
 :book: [Índice](#índice)
 ### 12) Tabelas
@@ -419,6 +455,7 @@ https://www.ti-enxame.com/pt/syntax/comentarios-em-markdown/972100416/
 :four: https://gist.github.com/rxaviers/7360908<br>
 
 :link: **Templates:**
+
 https://gist.github.com/PurpleBooth/109311bb0361f32d87a2 
 https://gist.github.com/reginadiana/e044fe93ed81aa04a10361cb841c0409
 https://github.com/dbader/readme-template (Este inclusive em inglês, português e espanhol)
@@ -447,32 +484,32 @@ https://markdownmonster.west-wind.com/
 
 ## Mais sobre Markdown
 
-Resumo de Comandos
-https://commonmark.org/help/
-https://www.markdownguide.org/basic-syntax/
-https://www.markdownguide.org/extended-syntax/
-https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md 
+- Resumo de Comandos
+  - https://commonmark.org/help/
+  - https://www.markdownguide.org/basic-syntax/
+  - https://www.markdownguide.org/extended-syntax/
+  - https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md 
 
-Sintaxe com seu equivalente em HTML 
-https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8 
+- Sintaxe com seu equivalente em HTML 
+  - https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8 
 
-https://dev.to/reginadiana/como-escrever-um-readme-md-sensacional-no-github-4509 
+- https://dev.to/reginadiana/como-escrever-um-readme-md-sensacional-no-github-4509 
 
-https://guides.github.com/features/mastering-markdown/ 
+- https://guides.github.com/features/mastering-markdown/ 
 
-https://docs.gitlab.com/ee/user/markdown.html 
+- https://docs.gitlab.com/ee/user/markdown.html 
 
-Formatting text with Markdown
-https://support.zendesk.com/hc/pt-br/articles/203691016-Formata%C3%A7%C3%A3o-de-texto-com-Markdown 
+- Formatting text with Markdown
+  - https://support.zendesk.com/hc/pt-br/articles/203691016-Formata%C3%A7%C3%A3o-de-texto-com-Markdown 
 
-Guia básico de Markdown
-https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
+- Guia básico de Markdown
+  - https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
 
-Ajuda do markdown
-https://pt.stackoverflow.com/editing-help
+- Ajuda do markdown
+  - https://pt.stackoverflow.com/editing-help
 
 
-Veja alguns problemas que surgiram no desenvolvimento deste projeto e como os resolvi em [issues](https://github.com/Diana-ops/treina-dev-turma-3/issues) 
+- Veja alguns problemas que surgiram no desenvolvimento deste projeto e como os resolvi em [issues](https://github.com/Diana-ops/treina-dev-turma-3/issues) 
 https://github.com/reginadiana
 
 :book: [Índice](#índice)
