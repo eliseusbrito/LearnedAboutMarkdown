@@ -5,15 +5,18 @@
    - [2) Linhas em Branco](#2-linhas-em-branco)
    - [3) Negrito](#3-negrito)
    - [4) Itálico](#4-itálico)
-   - [5) Combinação de marcações](#5-combinação-de-marcações)
-   - [6) Listas](#6-listas)
-   - [7) Marcadores especiais](#7-marcadores-especiais)
-   - [8) Citações(Quotes)](#8-citações-quotes)
-   - [9) Links](#9-links)
-   - [10) Código (Code Highlight)](#10-código-code-highlight)
-   - [11) Imagens e Gifs](#11-imagens-e-gifs)
-   - [12) Tabelas](#12-tabelas)
-   - [13) Comentar linhas do markdown](#13-comentar-linhas-do-markdown)
+   - [5) Sobrescrito e subscrito](#5-sobrescrito-e-subscrito)
+   - [6) Combinação de marcações](#6-combinação-de-marcações)
+   - [7) Listas](#7-listas)
+   - [8) Marcadores especiais](#8-marcadores-especiais)
+   - [9) Citações (Quotes)](#9-citações-quotes)
+   - [10) Links](#10-links)
+   - [11) Código (Code Highlight)](#11-código-code-highlight)
+   - [12) Imagens e Gifs](#12-imagens-e-gifs)
+   - [13) Tabelas](#13-tabelas)
+   - [14) Comentar linhas do markdown](#14-comentar-linhas-do-markdown)
+   - [15) Normas horizontais](#15-normas-horizontais)
+   - [16) Cores de texto e fontes](#16-cores-de-texto-e-fontes)
   - [Fontes](#fontes)
   - [Ferramentas para Markdown](#ferramentas-para-markdown)
   - [Mais sobre Markdown](#mais-sobre-markdown)
@@ -82,7 +85,7 @@ Para fazer itálico usa-se o asterisco ou traço-baixo antes e depois da palavra
 *italico* 
 _italico_
 ````
-Exemplo de Itálico
+Exemplo de Itálico:
 Aqui usou-se *itálico com asteriscos*.
 Aqui usou-se _itálico com traço-baixo_(underscore).
 
@@ -94,7 +97,24 @@ Itálico esta em <i>Itálico</i>.
 
 :book: [Índice](#índice)
 
-### 5) Combinação de marcações
+
+### 5) Sobrescrito e subscrito
+
+#### Sobrescrito
+````
+E=MC<sup>2</sup>
+````
+
+E=MC<sup>2</sup>
+
+#### Subscrito
+````
+As plantas precisam de CO<sub>2</sub>
+````
+As plantas precisam de CO<sub>2<sub>
+
+:book: [Índice](#índice)
+### 6) Combinação de marcações
 ````
 _You **can** combine them_
 ````
@@ -103,11 +123,11 @@ _You **can** combine them_
 
 :book: [Índice](#índice)
 
-### 6) Listas
+### 7) Listas
 Listas são marcadas com asterisco ou hifen e deve ter espaço simples entre o símbolo e o texto:**
 Para sublistas deve ter espaço duplo entre símbolo e texto.
 
-##### 6.1) Lista não Ordenada
+##### 7.1) Lista não Ordenada
 ````
 * Item 1
   * sub item 1
@@ -128,7 +148,7 @@ Equivalente em HTML
  <li>bb</li>
 </ul>
 
-##### 6.2) Lista Ordenada
+##### 7.2) Lista Ordenada
 ````
 1. aaaa
 2. bbbb
@@ -142,7 +162,7 @@ Equivalente em HTML
  <li>bbbb</li>
 </ol>
 
-##### 6.3) Task List
+##### 7.3) Task List
 ````
 - [x] Implementar x
 - [ ] Implementar y
@@ -153,7 +173,7 @@ Equivalente em HTML
 
 :book: [Índice](#índice)
 
-### 7) Marcadores especiais
+### 8) Marcadores especiais
 ````:small_blue_diamond:````  :small_blue_diamond: Tópico com inicio de Diamante Azul
 
 ````:heavy_check_mark:````      :heavy_check_mark:
@@ -175,7 +195,7 @@ Equivalente em HTML
 
 :book: [Índice](#índice)
 
-### 8) Citações (Quotes)
+### 9) Citações (Quotes)
 Uma Citação é visualizada com uma linha vertical cinza e para isto usa-se o símbolo de maior:**
 ````>Citação````
 Exemplo de Citação
@@ -195,7 +215,7 @@ Equivalente em HTML:
 
 :book: [Índice](#índice)
 
-### 9) Links
+### 10) Links
 - **Texto-âncora**: utilize os caracteres [](), adicionando entre chaves o texto que você quer que apareça, e entre os parênteses, o endereço de destino, no formato:
    ````[Site do Terra](https://www.terra.com.br)````
    [Site do Terra](https://www.terra.com.br)
@@ -274,7 +294,7 @@ https://stackoverflow.com/questions/6695439/how-to-link-to-a-named-anchor-in-mul
 
 :book: [Índice](#índice)
 
-### 10) Código (Code Highlight)
+### 11) Código (Code Highlight)
 
 Há três modos de adicionar trechos de código ao Markdown:
 
@@ -313,7 +333,7 @@ https://stackoverflow.com/questions/65026124/p-data-line-line-number-class-sync-
 
 :book: [Índice](#índice)
 
-### 11) Imagens e Gifs
+### 12) Imagens e Gifs
 
 O código para inserir uma imagem no conteúdo é semelhante ao código de inserir links-âncora, adicionando um ponto de exclamação ! no início do código, como no exemplo abaixo:
 ````
@@ -355,8 +375,6 @@ O código para inserir uma imagem no conteúdo é semelhante ao código de inser
 **Obs.: Também tem a maneira “espertinha” (não recomendado): 
 Vai em New Issue e joga-se a imagem lá, o GitHub hospeda e já converte em um link certinho, basta copiarmos e jogarmos no README.md.**
 
-
-
 Equivalente em HTML:
 
 ```
@@ -364,14 +382,14 @@ Equivalente em HTML:
 ```
 <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
 <br></br>
-````
+```
 <img src="/images/EliseuDoisMonitoresPequena.jpg">
-````
+```
 <img src="/images/EliseuDoisMonitoresPequena.jpg">
 <br></br>
 
 :book: [Índice](#índice)
-### 12) Tabelas
+### 13) Tabelas
 
 Tabela conforme próximas três linhas: 
 ````
@@ -431,9 +449,33 @@ Equivalente em HTML:
  </thead>
 </table>
 
+#### Formatação Largura da Coluna da Tabela
+
+A largura das colunas é determinada pela célula mais longa da coluna; portanto, use a entidade de espaço html(&nbsp); quantas vezes for necessário para ampliar a coluna.
+~~~~
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spring&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Hibernate|&nbsp;&nbsp;&nbsp;&nbsp;REST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+~~~~
+
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spring&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Hibernate|&nbsp;&nbsp;&nbsp;&nbsp;REST&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|:-:|:-:|:-:|:-:|
+|![](/images/java.png)|![](/images/spring.png)|![](/images/hibernate.png)|![](/images/rest.png)|
+|![](/images/level9.png)|![](/images/level3.png)|![](/images/level9.png)|![](/images/level3.png)|
+
+Obs.: Post utilizado como referência(mas tem formatação html e não necessariamente funciona no GitHub):
+https://www.ti-enxame.com/pt/markdown/definir-largura-da-coluna-da-tabela-markdown/823385700/
+
+:: Uma solução que pode funcionar é se o seu leitor de Markdown suportar elementos div e HTML embutido (também nas tabelas) é definindo a largura da tabela com style="width:Xpx"
+~~~~
+
+| <div style="width:290px">property</div> | description                           |
+| --------------------------------------- | ------------------------------------- |
+| `border-bottom-right-radius`            | Defines the shape of the bottom-right |
+~~~~
+
+
 :book: [Índice](#índice)
 
-### 13) Comentar linhas do markdown
+### 14) Comentar linhas do markdown
 ````
 [//]: # (**negrito** **negrito**)
 [//]: <> (fdsaf afs d)
@@ -446,6 +488,35 @@ https://www.ti-enxame.com/pt/syntax/comentarios-em-markdown/972100416/
 
 :book: [Índice](#índice)
 
+### 15) Normas horizontais
+Três ou mais traços ou asteriscos: 
+
+    ---
+
+    ***
+
+    - - - -
+
+---
+***
+----
+:book: [Índice](#índice)
+
+### 16) Cores de texto e fontes
+
+Esta formatação normalmente não funciona no GitHub, mas em outros repositórios funciona.
+
+````
+Em sua barba moravam três <span style="color:red">cardeais</span>.
+````
+Em sua barba moravam três <span style="color:red">cardeais</span>.
+
+~~~~
+Eu estou <span style="font-family:Papyrus; font-size:4em;">FELIZ!</span>
+~~~~
+Eu estou <span style="font-family:Papyrus; font-size:4em;">FELIZ!</span>
+
+:book: [Índice](#índice)
 ## Fontes
 
 :smile:**Emojis:**<br>
@@ -454,11 +525,15 @@ https://www.ti-enxame.com/pt/syntax/comentarios-em-markdown/972100416/
 :three: https://www.webfx.com/tools/emoji-cheat-sheet/<br>
 :four: https://gist.github.com/rxaviers/7360908<br>
 
+:recycle:**Icons&Logos:**<br>
+https://www.iconfinder.com/search
+https://logodownload.org/
+
 :link: **Templates:**
 
-https://gist.github.com/PurpleBooth/109311bb0361f32d87a2 
-https://gist.github.com/reginadiana/e044fe93ed81aa04a10361cb841c0409
-https://github.com/dbader/readme-template (Este inclusive em inglês, português e espanhol)
+https://gist.github.com/PurpleBooth/109311bb0361f32d87a2 <br>
+https://gist.github.com/reginadiana/e044fe93ed81aa04a10361cb841c0409<br>
+https://github.com/dbader/readme-template (Este inclusive em inglês, português e espanhol)<br>
 
 :school:**Sites Oficiais**
 
@@ -489,6 +564,7 @@ https://markdownmonster.west-wind.com/
   - https://www.markdownguide.org/basic-syntax/
   - https://www.markdownguide.org/extended-syntax/
   - https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md 
+  - https://support.squarespace.com/hc/pt/articles/206543587-Gabarito-Markdown
 
 - Sintaxe com seu equivalente em HTML 
   - https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8 
