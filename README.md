@@ -548,11 +548,10 @@ https://www.markdownguide.org/
 
 ## Ferramentas para Markdown
 
-https://www.markdownguide.org/tools/
-
-http://markdownpad.com/
-
-https://markdownmonster.west-wind.com/
+- https://www.markdownguide.org/tools/
+- http://markdownpad.com/
+- https://markdownmonster.west-wind.com/
+- https://mermaid-js.github.io/mermaid/#/ : Cria diagramas e visualização usando texto e código
 
 
 :book: [Índice](#índice)
@@ -565,24 +564,19 @@ https://markdownmonster.west-wind.com/
   - https://www.markdownguide.org/extended-syntax/
   - https://github.com/luong-komorebi/Markdown-Tutorial/blob/master/README_pt-BR.md 
   - https://support.squarespace.com/hc/pt/articles/206543587-Gabarito-Markdown
-<br>
 - Sintaxe com seu equivalente em HTML 
   - https://medium.com/@raullesteves/github-como-fazer-um-readme-md-bonit%C3%A3o-c85c8f154f8 
   - https://dev.to/reginadiana/como-escrever-um-readme-md-sensacional-no-github-4509 
   - https://guides.github.com/features/mastering-markdown/ 
-  - https://docs.gitlab.com/ee/user/markdown.html 
-  - Formatting text with Markdown
+  - https://docs.gitlab.com/ee/user/markdown.html
+- Formatting text with Markdown
   - https://support.zendesk.com/hc/pt-br/articles/203691016-Formata%C3%A7%C3%A3o-de-texto-com-Markdown 
-<br>
 - Guia básico de Markdown
   - https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
-<br>
 - Markdown no GitLab
   - https://docs.gitlab.com/ee/user/markdown.html
-<br>
 - Ajuda do markdown
   - https://pt.stackoverflow.com/editing-help
-<br>
 - Veja alguns problemas que surgiram no desenvolvimento deste projeto e como os resolvi em [issues](https://github.com/Diana-ops/treina-dev-turma-3/issues) https://github.com/reginadiana
-<br>
+
 :book: [Índice](#índice)
